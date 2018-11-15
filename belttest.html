@@ -1,0 +1,90 @@
+<!-- Templates Please. I'll do anything Incepter. -->
+
+<!-- Documentation time! Message /u/kmsxkuse for more info. The sheer fact I have documentation proves Im infinitely better than the last guy.
+	1) <class = "mw-customtoggle-XXXXXXXX"> - Allows for button pressed expansion instead of [expand/collapse].
+		a) <id = "mw-customcollapsible-XXXXXXXX"> - Connected to customtoggle class.
+	2) <class = "mw-collapsible mw-collapsed"> - Sometimes without the <mw-collapsed>, this is the Collapse Parent.
+		a) <class = "mw-collapsible-content"> - Collapsed Content.
+	3) Styles of Collapse Button & Parent: oh joy. Not alphabetical because Im just adding stuff as I go.
+		a) <border:XXXXXXXX> - Should be a darker shade of the background. Can be words, #hexcode, whatever.
+		b) <background:XXXXXXXX> - Should be a lighter shade of the border.
+		c) <width:99%> - Dynamic Collapse Box Size.
+		d) <overflow:auto> - No clue what this does. Just put it in. Trust me.
+		e) <border-radius:XXXXXXXX> - Makes buttons rounded and not sharp.
+		f) <padding:XXXXXXXX> & <margin:XXXXXXXX> - Indents text and boxes so they dont clip into the side of the parent collapsible box.
+		g) <text-align:center> - Makes the text be at center. Looks a bit better.
+		h) <display:inline-block"> - Allows for the button to be only the size of the text.
+	4) Styles of Collapsed Content:
+		a) <border:solid lightgray> - Looks nice. Should be consistant.
+		b) <background:white> - Should be consistant.
+		c) <padding:XXXXXXXX> & <margin:XXXXXXXX> - Indents text and boxes so they dont clip into the side of the parent collapsible box.
+		d) <overflow:auto> - No clue what this does. Just put it in. Trust me.
+		e) <width:99%> - Dynamic Collapse Box Size.
+-->
+
+<div class = "mw-customtoggle-header" style="border:mediumturquoise; border-radius: 0.625em; background:lightcyan; padding:0 1%; padding-right:1%; display:inline-block">
+	<p><strong style = "line-height:1em; font-size:1.75em">Click here for TEST AIR BELTS</strong></p>
+</div>
+<div class = "mw-collapsible mw-collapsed" id="mw-customcollapsible-header" style = "width:100%; overflow:auto">
+	<div class = "mw-collapsible-content" style = "border:solid lightgray; background:white; overflow:auto; padding:1%">
+		<div class = "mw-customtoggle-glossary" style="font-size:1.2em; text-align:center; width:auto; overflow:auto; border:solid crimson; border-radius: 0.625em; background:lightpink">
+			<strong>Information Page</strong>
+		</div>
+		<div class = "mw-collapsible mw-collapsed" id = "mw-customcollapsible-glossary" style = "width:99%; overflow:auto;">
+			<div class = "mw-collapsible-content" style = "border:solid lightgray; background:white; margin-left:1%; padding:0 1%; overflow:auto">
+				You have been informed.
+			</div>
+		</div>
+		<!-- This is extremely buggy. I dont know why. CSS just doesnt like the pros and cons section.-->
+		<div>
+			<strong style = "line-height:2em; font-size:2.5em">TEST GUN</strong>
+			<hr/>
+			<br />
+			<b>Pros:</b>
+			* BIAS MACHINE
+			* DEATH INCARNATE
+			<b>Cons:</b>
+			* DOESNT EXIST!
+			<br />
+		</div>
+		<div class = "mw-customtoggle-weaponInfo" style="font-size:1.2em; text-align:center; width:auto; overflow:auto; border:solid green; border-radius: 0.625em; background:lightgreen;">
+			<strong><i>Weapon Information</i></strong>
+		</div>
+		<div class = "mw-collapsible" id = "mw-customcollapsible-weaponInfo" style = "width:99%; overflow:auto;">
+			<div class = "mw-collapsible-content" style = "border:solid lightgray; background:white; margin-left:1%; padding:0 1%; overflow:auto">
+				People dont kill weapons, weapons kill weapons!
+			</div>
+		</div>
+		<div class = "mw-customtoggle-beltCompare" style="font-size:1.2em; text-align:center; width:auto; overflow:auto; border:solid blue; border-radius: 0.625em; background:lightskyblue">
+			<strong><i>Belt Comparison</i></strong>
+		</div>
+		<div class = "mw-collapsible" id = "mw-customcollapsible-beltCompare" style = "width:99%; overflow:auto;">
+			<div class = "mw-collapsible-content" style = "border:solid lightgray; background:white; margin-left:1%; padding:0 1%; overflow:auto">
+				Belts have been compared.
+			</div>
+		</div>
+		<div class = "mw-customtoggle-shells" style="font-size:1.2em; text-align:center; width:auto; overflow:auto; border:solid orange; border-radius: 0.625em; background:mistyrose">
+			<strong><i>Shells</i></strong>
+		</div>
+		<div class = "mw-collapsible" id = "mw-customcollapsible-shells" style = "width:99%; overflow:auto;">
+			<div class = "mw-collapsible-content" style = "border:solid lightgray; background:white; margin-left:1%; padding:0 1%; overflow:auto">
+				This is the beach. No littering.
+			</div>
+		</div>
+		<div class = "mw-customtoggle-belts" style="font-size:1.2em; text-align:center; width:auto; overflow:auto; border:solid purple; border-radius: 0.625em; background:lavender">
+			<strong><i>Belts</i></strong>
+		</div>
+		<div class = "mw-collapsible" id = "mw-customcollapsible-belts" style = "width:99%; overflow:auto;">
+			<div class = "mw-collapsible-content" style = "border:solid lightgray; background:white; margin-left:1%; padding:0 1%; overflow:auto">
+				<div class = "mw-customtoggle-belt0" style="text-align:center; width:auto; overflow:auto; border:solid purple; border-radius: 0.625em; background:lavender">
+					<strong><i>Default</i></strong>
+				</div>
+				<div class = "mw-collapsible mw-collapsed" id = "mw-customcollapsible-belt0" style = "width:99%; overflow:auto;">
+					<div class = "mw-collapsible-content" style = "border:solid lightgray; background:white; margin-left:1%; padding:0 1%; overflow:auto">
+						Never heard of a 'default belt' before. Is it the statistical average of every human's waistline?
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

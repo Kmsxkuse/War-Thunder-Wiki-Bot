@@ -1,0 +1,1401 @@
+<div class = "mw-customtoggle-header" style="border:mediumturquoise; border-radius: 0.625em; background:lightcyan; padding:0 1%; padding-right:1%; display:inline-block">
+<p><strong style = "line-height:1em; font-size:1.75em">Click here for B20s Belts!</strong></p>
+</div>
+<div class = "mw-collapsible mw-collapsed" id="mw-customcollapsible-header" style = "width:100%; overflow:auto">
+<div class = "mw-collapsible-content" style = "border:solid lightgray; background:white; overflow:auto; padding:1%">
+<div class = "mw-customtoggle-glossary" style="font-size:1.2em; text-align:center; width:auto; overflow:auto; border:solid crimson; border-radius: 0.625em; background:lightpink">
+<strong>Information Page</strong>
+</div>
+<div class = "mw-collapsible mw-collapsed" id = "mw-customcollapsible-glossary" style = "width:99%; overflow:auto;">
+<div class = "mw-collapsible-content" style = "border:solid lightgray; background:white; margin-left:1%; padding:0 1%; overflow:auto">
+<strong style = "font-size:2em;"> Created by Kmsxkuse. </strong>
+
+Bot Version: [1.0 Alpha]. Bot Last Run: [11/14/2018].
+
+Database last updated: [10/28/2018]. War Thunder Version: [1.83].
+        
+The following information should be taken with a grain of salt. 
+
+If the numbers dont make sense, assume bugs or missing data. I have no access to server side information that may be modifying the shell data.
+
+If you need to contact the creator, please message /u/Kmsxkuse on www.reddit.com.
+
+<strong style = "font-size:1.5em;"> How numbers are calculated: </strong>
+
+ROF Bar-O-Matic is calculated by multiplying the rate of fire per minute by 30 / 800. 
+
+That value is then the paddingleft css style %.
+
+If the adjusted ROF is > 60 or < 0, then they will be 60 or 0.
+
+Physical Damage is calculated by multiplying the mass of the shell by its (velocity / 100) squared along with hitPowerMult if it exists.
+
+The 1/2 in Ke = 1/2 m v^2 is ignored due to it being a constant and the numbers are for comparison.
+
+High Explosive Damage is calculated by explosiveMass * 100 times the first number in explodeRadius * 100 times explodeHitpower.
+
+Fragmentation Damage is calculated by shutterDamageRadius times shutterAmount times shutterHit.
+
+Belt comparison values for damage are the average of the shells' damage values that compose it.
+
+The rest are values pulled directly from the datamine.
+</div>
+</div>
+<div>
+<strong style = "line-height:2em; font-size:2.5em">B20s</strong>
+<hr/>
+<br />
+<b>Pros:</b>
+* Insert Pros Here!
+<b>Cons:</b>
+* Insert Cons Here!
+<br />
+</div>
+<div class = "mw-customtoggle-weaponInfo" style="font-size:1.2em; text-align:center; width:auto; overflow:auto; border:solid green; border-radius: 0.625em; background:lightgreen;">
+<strong><i>Weapon Information</i></strong>
+</div>
+<div class = "mw-collapsible" id = "mw-customcollapsible-weaponInfo" style = "width:99%; overflow:auto;">
+<div class = "mw-collapsible-content" style = "border:solid lightgray; background:white; margin-left:1%; padding:1%; overflow:auto">
+<div style = "text-align:center; font-size:1.5em;">RoF Bar-o-matic:</div>
+<div style = "background: linear-gradient(to right, red, yellow, green); font-size:3em; width:auto; height:1em; padding:1% 0 0 28.125%; margin:0.3em 19.5% 0.25em"> | </div>
+{|class="wikitable" style = "width:75%; margin:0 auto 1em; font-size:1.2em"
+|+ style = "width:auto; font-size:2.0em; text-align:center; margin:0.5em 0 1em" | Rate Of Fire: ~ 750 rounds per minute
+! style = "width:33%" | Cannon
+! style = "width:33%" | Caliber
+! style = "width:33%" | Effective Distance
+|-
+| style = "text-align:center" | Yes
+| style = "text-align:center" | 20mm
+| style = "text-align:center" | 700m
+|}
+{|class="wikitable" style = "width:75%; margin:0 auto 1em; font-size:1.2em"
+! style = "width:50%" | Spaded Disp @ 500m
+! style = "width:50%" | Stock Disp @ 500m
+|-
+| style = "text-align:center" | 1m
+| style = "text-align:center" | 4m
+|}
+</div>
+</div>
+<div class = "mw-customtoggle-beltCompare" style="font-size:1.2em; text-align:center; width:auto; overflow:auto; border:solid blue; border-radius: 0.625em; background:lightskyblue">
+<strong><i>Belt Comparison</i></strong>
+</div>
+<div class = "mw-collapsible" id = "mw-customcollapsible-beltCompare" style = "width:99%; overflow:auto;">
+<div class = "mw-collapsible-content" style = "border:solid lightgray; background:white; margin-left:1%; padding:0 1%; overflow:auto">
+<div class = "mw-collapsible" id = "mw-customcollapsible-internal0" style = "width:99%; overflow:auto;">
+<div class = "mw-collapsible-content" style = "background:white; margin-left:1%; padding:0 1%; overflow:auto">
+{| style = "width:75%; text-align:center; margin:0 auto 1%; font-size:1.2em"
+|+ style = "width:auto; font-size:1.5em; margin:0.5em 0 0.5em" | Damage Comparisons
+! style = "width:14%" |
+! style = "width:14%; background:LightSkyBlue" | Default
+! style = "width:14%; background:LightSkyBlue" | Universal
+! style = "width:14%; background:LightSkyBlue" | Ground Targets
+! style = "width:14%; background:LightSkyBlue" | Tracers
+! style = "width:14%; background:LightSkyBlue" | Armor Targets
+! style = "width:14%; background:LightSkyBlue" | Stealth
+|-
+! style = "background:LightSkyBlue" | Physical
+| style = "background:LightCyan" | 6.14
+| style = "background:LightCyan" | 6.06
+| style = "background:LightCyan" | 6.04
+| style = "background:LightCyan" | 6.14
+| style = "background:LightCyan" | 6.14
+| style = "background:LightCyan" | 5.98
+|-
+! style = "background:LightSkyBlue" | H.E.
+| style = "background:PowderBlue" | 9.33
+| style = "background:PowderBlue" | 16.08
+| style = "background:PowderBlue" | 15.22
+| style = "background:PowderBlue" | 18.66
+| style = "background:PowderBlue" | 4.66
+| style = "background:PowderBlue" | 19.87
+|-
+! style = "background:LightSkyBlue" | Frag.
+| style = "background:LightCyan" | 31.50
+| style = "background:LightCyan" | 39.30
+| style = "background:LightCyan" | 31.40
+| style = "background:LightCyan" | 63.00
+| style = "background:LightCyan" | 15.75
+| style = "background:LightCyan" | 31.35
+|}
+
+</div>
+</div>
+<div class = "mw-collapsible mw-collapsed" id = "mw-customcollapsible-internal1" style = "width:99%; overflow:auto;">
+<div class = "mw-collapsible-content" style = "background:white; margin-left:1%; padding:0 1%; overflow:auto">
+{| style = "width:75%; text-align:center; margin:0 auto 1%; font-size:1.2em"
+|+ style = "width:auto; font-size:1.5em; margin:0.5em 0 0.5em" | Projectile Properties
+! style = "width:14%" |
+! style = "width:14%; background:LightSkyBlue" | Default
+! style = "width:14%; background:LightSkyBlue" | Universal
+! style = "width:14%; background:LightSkyBlue" | Ground Targets
+! style = "width:14%; background:LightSkyBlue" | Tracers
+! style = "width:14%; background:LightSkyBlue" | Armor Targets
+! style = "width:14%; background:LightSkyBlue" | Stealth
+|-
+! style = "background:LightSkyBlue" | Caliber
+| style = "background:LightCyan" | 20mm
+| style = "background:LightCyan" | 20mm
+| style = "background:LightCyan" | 20mm
+| style = "background:LightCyan" | 20mm
+| style = "background:LightCyan" | 20mm
+| style = "background:LightCyan" | 20mm
+|-
+! style = "background:LightSkyBlue" | Tracer
+| style = "background:PowderBlue" | Yes
+| style = "background:PowderBlue" | Yes
+| style = "background:PowderBlue" | Yes
+| style = "background:PowderBlue" | Yes
+| style = "background:PowderBlue" | Yes
+| style = "background:PowderBlue" | No
+|}
+
+</div>
+</div>
+<div class = "mw-collapsible mw-collapsed" id = "mw-customcollapsible-internal2" style = "width:99%; overflow:auto;">
+<div class = "mw-collapsible-content" style = "background:white; margin-left:1%; padding:0 1%; overflow:auto">
+{| style = "width:75%; text-align:center; margin:0 auto 1%; font-size:1.2em"
+|+ style = "width:auto; font-size:1.5em; margin:0.5em 0 0.5em" | Maximum Penetration (mm)
+! style = "width:14%" |
+! style = "width:14%; background:LightSkyBlue" | Default
+! style = "width:14%; background:LightSkyBlue" | Universal
+! style = "width:14%; background:LightSkyBlue" | Ground Targets
+! style = "width:14%; background:LightSkyBlue" | Tracers
+! style = "width:14%; background:LightSkyBlue" | Armor Targets
+! style = "width:14%; background:LightSkyBlue" | Stealth
+|-
+! style = "background:LightSkyBlue" | R²
+| style = "background:LightCyan" | 0.98
+| style = "background:LightCyan" | 0.98
+| style = "background:LightCyan" | 0.98
+| style = "background:LightCyan" | 0.96
+| style = "background:LightCyan" | 0.98
+| style = "background:LightCyan" | 0.98
+|-
+! style = "background:LightSkyBlue" | 100m
+| style = "background:PowderBlue" | 24.70
+| style = "background:PowderBlue" | 24.70
+| style = "background:PowderBlue" | 24.70
+| style = "background:PowderBlue" | 2.00
+| style = "background:PowderBlue" | 24.70
+| style = "background:PowderBlue" | 24.70
+|-
+! style = "background:LightSkyBlue" | 250m
+| style = "background:LightCyan" | 23.18
+| style = "background:LightCyan" | 23.18
+| style = "background:LightCyan" | 23.18
+| style = "background:LightCyan" | 1.81
+| style = "background:LightCyan" | 23.18
+| style = "background:LightCyan" | 23.18
+|-
+! style = "background:LightSkyBlue" | 500m
+| style = "background:PowderBlue" | 20.65
+| style = "background:PowderBlue" | 20.65
+| style = "background:PowderBlue" | 20.65
+| style = "background:PowderBlue" | 1.50
+| style = "background:PowderBlue" | 20.65
+| style = "background:PowderBlue" | 20.65
+|-
+! style = "background:LightSkyBlue" | 750m
+| style = "background:LightCyan" | 18.13
+| style = "background:LightCyan" | 18.13
+| style = "background:LightCyan" | 18.13
+| style = "background:LightCyan" | 1.18
+| style = "background:LightCyan" | 18.13
+| style = "background:LightCyan" | 18.13
+|-
+! style = "background:LightSkyBlue" | 1000m
+| style = "background:PowderBlue" | 15.60
+| style = "background:PowderBlue" | 15.60
+| style = "background:PowderBlue" | 15.60
+| style = "background:PowderBlue" | 0.86
+| style = "background:PowderBlue" | 15.60
+| style = "background:PowderBlue" | 15.60
+|}
+
+</div>
+</div>
+<div class = "mw-collapsible mw-collapsed" id = "mw-customcollapsible-internal3" style = "width:99%; overflow:auto;">
+<div class = "mw-collapsible-content" style = "background:white; margin-left:1%; padding:0 1%; overflow:auto">
+{| style = "width:75%; text-align:center; margin:0 auto 1%; font-size:1.2em"
+|+ style = "width:auto; font-size:1.5em; margin:0.5em 0 0.5em" | Physical Projectile Damage
+! style = "width:14%" |
+! style = "width:14%; background:LightSkyBlue" | Default
+! style = "width:14%; background:LightSkyBlue" | Universal
+! style = "width:14%; background:LightSkyBlue" | Ground Targets
+! style = "width:14%; background:LightSkyBlue" | Tracers
+! style = "width:14%; background:LightSkyBlue" | Armor Targets
+! style = "width:14%; background:LightSkyBlue" | Stealth
+|-
+! style = "background:LightSkyBlue" | Damage Rating
+| style = "background:LightCyan" | 6.14
+| style = "background:LightCyan" | 6.06
+| style = "background:LightCyan" | 6.04
+| style = "background:LightCyan" | 6.14
+| style = "background:LightCyan" | 6.14
+| style = "background:LightCyan" | 5.98
+|-
+! style = "background:LightSkyBlue" | Fire Rating
+| style = "background:PowderBlue" | x5.75
+| style = "background:PowderBlue" | x3.25
+| style = "background:PowderBlue" | x3.83
+| style = "background:PowderBlue" | x1.50
+| style = "background:PowderBlue" | x7.88
+| style = "background:PowderBlue" | x2.88
+|}
+
+</div>
+</div>
+<div class = "mw-collapsible mw-collapsed" id = "mw-customcollapsible-internal4" style = "width:99%; overflow:auto;">
+<div class = "mw-collapsible-content" style = "background:white; margin-left:1%; padding:0 1%; overflow:auto">
+{| style = "width:75%; text-align:center; margin:0 auto 1%; font-size:1.2em"
+|+ style = "width:auto; font-size:1.5em; margin:0.5em 0 0.5em" | High Explosive Damage
+! style = "width:14%" |
+! style = "width:14%; background:LightSkyBlue" | Default
+! style = "width:14%; background:LightSkyBlue" | Universal
+! style = "width:14%; background:LightSkyBlue" | Ground Targets
+! style = "width:14%; background:LightSkyBlue" | Tracers
+! style = "width:14%; background:LightSkyBlue" | Armor Targets
+! style = "width:14%; background:LightSkyBlue" | Stealth
+|-
+! style = "background:LightSkyBlue" | Damage Rating
+| style = "background:LightCyan" | 9.33
+| style = "background:LightCyan" | 16.08
+| style = "background:LightCyan" | 15.22
+| style = "background:LightCyan" | 18.66
+| style = "background:LightCyan" | 4.66
+| style = "background:LightCyan" | 19.87
+|-
+! style = "background:LightSkyBlue" | Radius
+| style = "background:PowderBlue" | 0.04 m
+| style = "background:PowderBlue" | 0.04 m
+| style = "background:PowderBlue" | 0.04 m
+| style = "background:PowderBlue" | 0.04 m
+| style = "background:PowderBlue" | 0.04 m
+| style = "background:PowderBlue" | 0.04 m
+|-
+! style = "background:LightSkyBlue" | Pen.
+| style = "background:LightCyan" | 5.00 mm
+| style = "background:LightCyan" | 5.00 mm
+| style = "background:LightCyan" | 5.00 mm
+| style = "background:LightCyan" | 5.00 mm
+| style = "background:LightCyan" | 5.00 mm
+| style = "background:LightCyan" | 5.00 mm
+|}
+
+</div>
+</div>
+<div class = "mw-collapsible mw-collapsed" id = "mw-customcollapsible-internal5" style = "width:99%; overflow:auto;">
+<div class = "mw-collapsible-content" style = "background:white; margin-left:1%; padding:0 1%; overflow:auto">
+{| style = "width:75%; text-align:center; margin:0 auto 1%; font-size:1.2em"
+|+ style = "width:auto; font-size:1.5em; margin:0.5em 0 0.5em" | Fragmentation Damage
+! style = "width:14%" |
+! style = "width:14%; background:LightSkyBlue" | Default
+! style = "width:14%; background:LightSkyBlue" | Universal
+! style = "width:14%; background:LightSkyBlue" | Ground Targets
+! style = "width:14%; background:LightSkyBlue" | Tracers
+! style = "width:14%; background:LightSkyBlue" | Armor Targets
+! style = "width:14%; background:LightSkyBlue" | Stealth
+|-
+! style = "background:LightSkyBlue" | Damage Rating
+| style = "background:LightCyan" | 31.50
+| style = "background:LightCyan" | 39.30
+| style = "background:LightCyan" | 31.40
+| style = "background:LightCyan" | 63.00
+| style = "background:LightCyan" | 15.75
+| style = "background:LightCyan" | 31.35
+|-
+! style = "background:LightSkyBlue" | Radius
+| style = "background:PowderBlue" | 1.20 m
+| style = "background:PowderBlue" | 1.20 m
+| style = "background:PowderBlue" | 1.20 m
+| style = "background:PowderBlue" | 1.20 m
+| style = "background:PowderBlue" | 1.20 m
+| style = "background:PowderBlue" | 1.20 m
+|-
+! style = "background:LightSkyBlue" | Pen.
+| style = "background:LightCyan" | 6.00 mm
+| style = "background:LightCyan" | 6.00 mm
+| style = "background:LightCyan" | 6.00 mm
+| style = "background:LightCyan" | 6.00 mm
+| style = "background:LightCyan" | 6.00 mm
+| style = "background:LightCyan" | 6.00 mm
+|}
+
+</div>
+</div>
+<div class = "mw-collapsible" id = "mw-customcollapsible-internal0" style="margin:0.5em auto; text-align: center">
+<div style="border:mediumturquoise; border-radius: 0.625em; background:lightgreen; padding:0 1%; padding-right:1%; display:inline-block">
+<p><strong style = "line-height:1em; font-size:1.75em">Damage</strong></p>
+</div>
+<div class = "mw-customtoggle-internal0 mw-customtoggle-internal1" style="border:mediumturquoise; border-radius: 0.625em; background:lightblue; padding:0 1%; padding-right:1%; display:inline-block">
+<p><strong style = "line-height:1em; font-size:1.75em">Properties</strong></p>
+</div>
+<div class = "mw-customtoggle-internal0 mw-customtoggle-internal2" style="border:mediumturquoise; border-radius: 0.625em; background:lightblue; padding:0 1%; padding-right:1%; display:inline-block">
+<p><strong style = "line-height:1em; font-size:1.75em">Penetration</strong></p>
+</div>
+<div class = "mw-customtoggle-internal0 mw-customtoggle-internal3" style="border:mediumturquoise; border-radius: 0.625em; background:lightblue; padding:0 1%; padding-right:1%; display:inline-block">
+<p><strong style = "line-height:1em; font-size:1.75em">Physical</strong></p>
+</div>
+<div class = "mw-customtoggle-internal0 mw-customtoggle-internal4" style="border:mediumturquoise; border-radius: 0.625em; background:lightblue; padding:0 1%; padding-right:1%; display:inline-block">
+<p><strong style = "line-height:1em; font-size:1.75em">High Explosive</strong></p>
+</div>
+<div class = "mw-customtoggle-internal0 mw-customtoggle-internal5" style="border:mediumturquoise; border-radius: 0.625em; background:lightblue; padding:0 1%; padding-right:1%; display:inline-block">
+<p><strong style = "line-height:1em; font-size:1.75em">Fragmentation</strong></p>
+</div>
+</div>
+<div class = "mw-collapsible mw-collapsed" id = "mw-customcollapsible-internal1" style="margin:0.5em auto; text-align: center">
+<div class = "mw-customtoggle-internal1 mw-customtoggle-internal0" style="border:mediumturquoise; border-radius: 0.625em; background:lightblue; padding:0 1%; padding-right:1%; display:inline-block">
+<p><strong style = "line-height:1em; font-size:1.75em">Damage</strong></p>
+</div>
+<div style="border:mediumturquoise; border-radius: 0.625em; background:lightgreen; padding:0 1%; padding-right:1%; display:inline-block">
+<p><strong style = "line-height:1em; font-size:1.75em">Properties</strong></p>
+</div>
+<div class = "mw-customtoggle-internal1 mw-customtoggle-internal2" style="border:mediumturquoise; border-radius: 0.625em; background:lightblue; padding:0 1%; padding-right:1%; display:inline-block">
+<p><strong style = "line-height:1em; font-size:1.75em">Penetration</strong></p>
+</div>
+<div class = "mw-customtoggle-internal1 mw-customtoggle-internal3" style="border:mediumturquoise; border-radius: 0.625em; background:lightblue; padding:0 1%; padding-right:1%; display:inline-block">
+<p><strong style = "line-height:1em; font-size:1.75em">Physical</strong></p>
+</div>
+<div class = "mw-customtoggle-internal1 mw-customtoggle-internal4" style="border:mediumturquoise; border-radius: 0.625em; background:lightblue; padding:0 1%; padding-right:1%; display:inline-block">
+<p><strong style = "line-height:1em; font-size:1.75em">High Explosive</strong></p>
+</div>
+<div class = "mw-customtoggle-internal1 mw-customtoggle-internal5" style="border:mediumturquoise; border-radius: 0.625em; background:lightblue; padding:0 1%; padding-right:1%; display:inline-block">
+<p><strong style = "line-height:1em; font-size:1.75em">Fragmentation</strong></p>
+</div>
+</div>
+<div class = "mw-collapsible mw-collapsed" id = "mw-customcollapsible-internal2" style="margin:0.5em auto; text-align: center">
+<div class = "mw-customtoggle-internal2 mw-customtoggle-internal0" style="border:mediumturquoise; border-radius: 0.625em; background:lightblue; padding:0 1%; padding-right:1%; display:inline-block">
+<p><strong style = "line-height:1em; font-size:1.75em">Damage</strong></p>
+</div>
+<div class = "mw-customtoggle-internal2 mw-customtoggle-internal1" style="border:mediumturquoise; border-radius: 0.625em; background:lightblue; padding:0 1%; padding-right:1%; display:inline-block">
+<p><strong style = "line-height:1em; font-size:1.75em">Properties</strong></p>
+</div>
+<div style="border:mediumturquoise; border-radius: 0.625em; background:lightgreen; padding:0 1%; padding-right:1%; display:inline-block">
+<p><strong style = "line-height:1em; font-size:1.75em">Penetration</strong></p>
+</div>
+<div class = "mw-customtoggle-internal2 mw-customtoggle-internal3" style="border:mediumturquoise; border-radius: 0.625em; background:lightblue; padding:0 1%; padding-right:1%; display:inline-block">
+<p><strong style = "line-height:1em; font-size:1.75em">Physical</strong></p>
+</div>
+<div class = "mw-customtoggle-internal2 mw-customtoggle-internal4" style="border:mediumturquoise; border-radius: 0.625em; background:lightblue; padding:0 1%; padding-right:1%; display:inline-block">
+<p><strong style = "line-height:1em; font-size:1.75em">High Explosive</strong></p>
+</div>
+<div class = "mw-customtoggle-internal2 mw-customtoggle-internal5" style="border:mediumturquoise; border-radius: 0.625em; background:lightblue; padding:0 1%; padding-right:1%; display:inline-block">
+<p><strong style = "line-height:1em; font-size:1.75em">Fragmentation</strong></p>
+</div>
+</div>
+<div class = "mw-collapsible mw-collapsed" id = "mw-customcollapsible-internal3" style="margin:0.5em auto; text-align: center">
+<div class = "mw-customtoggle-internal3 mw-customtoggle-internal0" style="border:mediumturquoise; border-radius: 0.625em; background:lightblue; padding:0 1%; padding-right:1%; display:inline-block">
+<p><strong style = "line-height:1em; font-size:1.75em">Damage</strong></p>
+</div>
+<div class = "mw-customtoggle-internal3 mw-customtoggle-internal1" style="border:mediumturquoise; border-radius: 0.625em; background:lightblue; padding:0 1%; padding-right:1%; display:inline-block">
+<p><strong style = "line-height:1em; font-size:1.75em">Properties</strong></p>
+</div>
+<div class = "mw-customtoggle-internal3 mw-customtoggle-internal2" style="border:mediumturquoise; border-radius: 0.625em; background:lightblue; padding:0 1%; padding-right:1%; display:inline-block">
+<p><strong style = "line-height:1em; font-size:1.75em">Penetration</strong></p>
+</div>
+<div style="border:mediumturquoise; border-radius: 0.625em; background:lightgreen; padding:0 1%; padding-right:1%; display:inline-block">
+<p><strong style = "line-height:1em; font-size:1.75em">Physical</strong></p>
+</div>
+<div class = "mw-customtoggle-internal3 mw-customtoggle-internal4" style="border:mediumturquoise; border-radius: 0.625em; background:lightblue; padding:0 1%; padding-right:1%; display:inline-block">
+<p><strong style = "line-height:1em; font-size:1.75em">High Explosive</strong></p>
+</div>
+<div class = "mw-customtoggle-internal3 mw-customtoggle-internal5" style="border:mediumturquoise; border-radius: 0.625em; background:lightblue; padding:0 1%; padding-right:1%; display:inline-block">
+<p><strong style = "line-height:1em; font-size:1.75em">Fragmentation</strong></p>
+</div>
+</div>
+<div class = "mw-collapsible mw-collapsed" id = "mw-customcollapsible-internal4" style="margin:0.5em auto; text-align: center">
+<div class = "mw-customtoggle-internal4 mw-customtoggle-internal0" style="border:mediumturquoise; border-radius: 0.625em; background:lightblue; padding:0 1%; padding-right:1%; display:inline-block">
+<p><strong style = "line-height:1em; font-size:1.75em">Damage</strong></p>
+</div>
+<div class = "mw-customtoggle-internal4 mw-customtoggle-internal1" style="border:mediumturquoise; border-radius: 0.625em; background:lightblue; padding:0 1%; padding-right:1%; display:inline-block">
+<p><strong style = "line-height:1em; font-size:1.75em">Properties</strong></p>
+</div>
+<div class = "mw-customtoggle-internal4 mw-customtoggle-internal2" style="border:mediumturquoise; border-radius: 0.625em; background:lightblue; padding:0 1%; padding-right:1%; display:inline-block">
+<p><strong style = "line-height:1em; font-size:1.75em">Penetration</strong></p>
+</div>
+<div class = "mw-customtoggle-internal4 mw-customtoggle-internal3" style="border:mediumturquoise; border-radius: 0.625em; background:lightblue; padding:0 1%; padding-right:1%; display:inline-block">
+<p><strong style = "line-height:1em; font-size:1.75em">Physical</strong></p>
+</div>
+<div style="border:mediumturquoise; border-radius: 0.625em; background:lightgreen; padding:0 1%; padding-right:1%; display:inline-block">
+<p><strong style = "line-height:1em; font-size:1.75em">High Explosive</strong></p>
+</div>
+<div class = "mw-customtoggle-internal4 mw-customtoggle-internal5" style="border:mediumturquoise; border-radius: 0.625em; background:lightblue; padding:0 1%; padding-right:1%; display:inline-block">
+<p><strong style = "line-height:1em; font-size:1.75em">Fragmentation</strong></p>
+</div>
+</div>
+<div class = "mw-collapsible mw-collapsed" id = "mw-customcollapsible-internal5" style="margin:0.5em auto; text-align: center">
+<div class = "mw-customtoggle-internal5 mw-customtoggle-internal0" style="border:mediumturquoise; border-radius: 0.625em; background:lightblue; padding:0 1%; padding-right:1%; display:inline-block">
+<p><strong style = "line-height:1em; font-size:1.75em">Damage</strong></p>
+</div>
+<div class = "mw-customtoggle-internal5 mw-customtoggle-internal1" style="border:mediumturquoise; border-radius: 0.625em; background:lightblue; padding:0 1%; padding-right:1%; display:inline-block">
+<p><strong style = "line-height:1em; font-size:1.75em">Properties</strong></p>
+</div>
+<div class = "mw-customtoggle-internal5 mw-customtoggle-internal2" style="border:mediumturquoise; border-radius: 0.625em; background:lightblue; padding:0 1%; padding-right:1%; display:inline-block">
+<p><strong style = "line-height:1em; font-size:1.75em">Penetration</strong></p>
+</div>
+<div class = "mw-customtoggle-internal5 mw-customtoggle-internal3" style="border:mediumturquoise; border-radius: 0.625em; background:lightblue; padding:0 1%; padding-right:1%; display:inline-block">
+<p><strong style = "line-height:1em; font-size:1.75em">Physical</strong></p>
+</div>
+<div class = "mw-customtoggle-internal5 mw-customtoggle-internal4" style="border:mediumturquoise; border-radius: 0.625em; background:lightblue; padding:0 1%; padding-right:1%; display:inline-block">
+<p><strong style = "line-height:1em; font-size:1.75em">High Explosive</strong></p>
+</div>
+<div style="border:mediumturquoise; border-radius: 0.625em; background:lightgreen; padding:0 1%; padding-right:1%; display:inline-block">
+<p><strong style = "line-height:1em; font-size:1.75em">Fragmentation</strong></p>
+</div>
+</div>
+
+</div>
+</div>
+<div class = "mw-customtoggle-shells" style="font-size:1.2em; text-align:center; width:auto; overflow:auto; border:solid orange; border-radius: 0.625em; background:mistyrose">
+<strong><i>Shells</i></strong>
+</div>
+<div class = "mw-collapsible" id = "mw-customcollapsible-shells" style = "width:99%; overflow:auto;">
+<div class = "mw-collapsible-content" style = "border:solid lightgray; background:white; margin-left:1%; padding:0 1%; overflow:auto">
+<div class = "mw-collapsible" id = "mw-customcollapsible-shell0" style = "width:99%; overflow:auto;">
+<div class = "mw-collapsible-content" style = "background:white; margin-left:1%; padding:0 1%; overflow:auto">
+{| style = "width:75%; text-align:center; margin:0 auto 1%; font-size:1.2em"
+|+ style = "width:auto; font-size:1.5em; margin:0.5em 0 0.5em" | Damage Comparisons
+! style = "width:20%" |
+! style = "width:20%; background:Coral" | Frag I T
+! style = "width:20%; background:Coral" | Ap I
+! style = "width:20%; background:Coral" | He Frag
+! style = "width:20%; background:Coral" | Frag I
+|-
+! style = "background:Coral" | Physical
+| style = "background:Bisque" | 6.14
+| style = "background:Bisque" | 6.14
+| style = "background:Bisque" | 5.82
+| style = "background:Bisque" | 6.14
+|-
+! style = "background:Coral" | H.E.
+| style = "background:SandyBrown" | 18.66
+| style = "background:SandyBrown" | 0.00
+| style = "background:SandyBrown" | 27.00
+| style = "background:SandyBrown" | 25.48
+|-
+! style = "background:Coral" | Frag.
+| style = "background:Bisque" | 63.00
+| style = "background:Bisque" | 0.00
+| style = "background:Bisque" | 31.20
+| style = "background:Bisque" | 63.00
+|}
+
+</div>
+</div>
+<div class = "mw-collapsible mw-collapsed" id = "mw-customcollapsible-shell1" style = "width:99%; overflow:auto;">
+<div class = "mw-collapsible-content" style = "background:white; margin-left:1%; padding:0 1%; overflow:auto">
+{| style = "width:75%; text-align:center; margin:0 auto 1%; font-size:1.2em"
+|+ style = "width:auto; font-size:1.5em; margin:0.5em 0 0.5em" | Projectile Properties
+! style = "width:20%" |
+! style = "width:20%; background:Coral" | Frag I T
+! style = "width:20%; background:Coral" | Ap I
+! style = "width:20%; background:Coral" | He Frag
+! style = "width:20%; background:Coral" | Frag I
+|-
+! style = "background:Coral" | Caliber
+| style = "background:Bisque" | 20mm
+| style = "background:Bisque" | 20mm
+| style = "background:Bisque" | 20mm
+| style = "background:Bisque" | 20mm
+|-
+! style = "background:Coral" | Tracer
+| style = "background:SandyBrown" | Yes
+| style = "background:SandyBrown" | No
+| style = "background:SandyBrown" | No
+| style = "background:SandyBrown" | No
+|-
+! style = "background:Coral" | Velocity
+| style = "background:Bisque" | 800m/s
+| style = "background:Bisque" | 800m/s
+| style = "background:Bisque" | 800m/s
+| style = "background:Bisque" | 800m/s
+|-
+! style = "background:Coral" | Mass
+| style = "background:SandyBrown" | 96g
+| style = "background:SandyBrown" | 96g
+| style = "background:SandyBrown" | 91g
+| style = "background:SandyBrown" | 96g
+|}
+
+</div>
+</div>
+<div class = "mw-collapsible mw-collapsed" id = "mw-customcollapsible-shell2" style = "width:99%; overflow:auto;">
+<div class = "mw-collapsible-content" style = "background:white; margin-left:1%; padding:0 1%; overflow:auto">
+{| style = "width:75%; text-align:center; margin:0 auto 1%; font-size:1.2em"
+|+ style = "width:auto; font-size:1.5em; margin:0.5em 0 0.5em" | Shell Penetration (mm)
+! style = "width:20%" |
+! style = "width:20%; background:Coral" | Frag I T
+! style = "width:20%; background:Coral" | Ap I
+! style = "width:20%; background:Coral" | He Frag
+! style = "width:20%; background:Coral" | Frag I
+|-
+! style = "background:Coral" | R²
+| style = "background:Bisque" | 0.96
+| style = "background:Bisque" | 0.98
+| style = "background:Bisque" | 0.96
+| style = "background:Bisque" | 0.96
+|-
+! style = "background:Coral" | 100m
+| style = "background:SandyBrown" | 2.00
+| style = "background:SandyBrown" | 24.70
+| style = "background:SandyBrown" | 2.00
+| style = "background:SandyBrown" | 2.00
+|-
+! style = "background:Coral" | 250m
+| style = "background:Bisque" | 1.81
+| style = "background:Bisque" | 23.18
+| style = "background:Bisque" | 1.81
+| style = "background:Bisque" | 1.81
+|-
+! style = "background:Coral" | 500m
+| style = "background:SandyBrown" | 1.50
+| style = "background:SandyBrown" | 20.65
+| style = "background:SandyBrown" | 1.50
+| style = "background:SandyBrown" | 1.50
+|-
+! style = "background:Coral" | 750m
+| style = "background:Bisque" | 1.18
+| style = "background:Bisque" | 18.13
+| style = "background:Bisque" | 1.18
+| style = "background:Bisque" | 1.18
+|-
+! style = "background:Coral" | 1000m
+| style = "background:SandyBrown" | 0.86
+| style = "background:SandyBrown" | 15.60
+| style = "background:SandyBrown" | 0.86
+| style = "background:SandyBrown" | 0.86
+|}
+
+</div>
+</div>
+<div class = "mw-collapsible mw-collapsed" id = "mw-customcollapsible-shell3" style = "width:99%; overflow:auto;">
+<div class = "mw-collapsible-content" style = "background:white; margin-left:1%; padding:0 1%; overflow:auto">
+{| style = "width:75%; text-align:center; margin:0 auto 1%; font-size:1.2em"
+|+ style = "width:auto; font-size:1.5em; margin:0.5em 0 0.5em" | Physical Projectile Damage
+! style = "width:20%" |
+! style = "width:20%; background:Coral" | Frag I T
+! style = "width:20%; background:Coral" | Ap I
+! style = "width:20%; background:Coral" | He Frag
+! style = "width:20%; background:Coral" | Frag I
+|-
+! style = "background:Coral" | Damage Rating
+| style = "background:Bisque" | 6.14
+| style = "background:Bisque" | 6.14
+| style = "background:Bisque" | 5.82
+| style = "background:Bisque" | 6.14
+|-
+! style = "background:Coral" | Fire Rating
+| style = "background:SandyBrown" | x1.50
+| style = "background:SandyBrown" | x10.00
+| style = "background:SandyBrown" | x0.00
+| style = "background:SandyBrown" | x1.50
+|}
+
+</div>
+</div>
+<div class = "mw-collapsible mw-collapsed" id = "mw-customcollapsible-shell4" style = "width:99%; overflow:auto;">
+<div class = "mw-collapsible-content" style = "background:white; margin-left:1%; padding:0 1%; overflow:auto">
+{| style = "width:75%; text-align:center; margin:0 auto 1%; font-size:1.2em"
+|+ style = "width:auto; font-size:1.5em; margin:0.5em 0 0.5em" | High Explosive Damage
+! style = "width:20%" |
+! style = "width:20%; background:Coral" | Frag I T
+! style = "width:20%; background:Coral" | Ap I
+! style = "width:20%; background:Coral" | He Frag
+! style = "width:20%; background:Coral" | Frag I
+|-
+! style = "background:Coral" | Damage Rating
+| style = "background:Bisque" | 18.66
+| style = "background:Bisque" | 0.00
+| style = "background:Bisque" | 27.00
+| style = "background:Bisque" | 25.48
+|-
+! style = "background:Coral" | Radius
+| style = "background:SandyBrown" | 0.04 m
+| style = "background:SandyBrown" | 0.00 m
+| style = "background:SandyBrown" | 0.04 m
+| style = "background:SandyBrown" | 0.04 m
+|-
+! style = "background:Coral" | Pen.
+| style = "background:Bisque" | 5.00 mm
+| style = "background:Bisque" | 0.00 mm
+| style = "background:Bisque" | 5.00 mm
+| style = "background:Bisque" | 5.00 mm
+|}
+
+</div>
+</div>
+<div class = "mw-collapsible mw-collapsed" id = "mw-customcollapsible-shell5" style = "width:99%; overflow:auto;">
+<div class = "mw-collapsible-content" style = "background:white; margin-left:1%; padding:0 1%; overflow:auto">
+{| style = "width:75%; text-align:center; margin:0 auto 1%; font-size:1.2em"
+|+ style = "width:auto; font-size:1.5em; margin:0.5em 0 0.5em" | Fragmentation Damage
+! style = "width:20%" |
+! style = "width:20%; background:Coral" | Frag I T
+! style = "width:20%; background:Coral" | Ap I
+! style = "width:20%; background:Coral" | He Frag
+! style = "width:20%; background:Coral" | Frag I
+|-
+! style = "background:Coral" | Damage Rating
+| style = "background:Bisque" | 63.00
+| style = "background:Bisque" | 0.00
+| style = "background:Bisque" | 31.20
+| style = "background:Bisque" | 63.00
+|-
+! style = "background:Coral" | Radius
+| style = "background:SandyBrown" | 1.20 m
+| style = "background:SandyBrown" | 0.00 m
+| style = "background:SandyBrown" | 0.80 m
+| style = "background:SandyBrown" | 1.20 m
+|-
+! style = "background:Coral" | Pen.
+| style = "background:Bisque" | 6.00 mm
+| style = "background:Bisque" | 0.00 mm
+| style = "background:Bisque" | 6.00 mm
+| style = "background:Bisque" | 6.00 mm
+|}
+
+</div>
+</div>
+<div class = "mw-collapsible" id = "mw-customcollapsible-shell0" style="margin:0.5em auto; text-align: center">
+<div style="border:mediumturquoise; border-radius: 0.625em; background:lightgreen; padding:0 1%; padding-right:1%; display:inline-block">
+<p><strong style = "line-height:1em; font-size:1.75em">Damage</strong></p>
+</div>
+<div class = "mw-customtoggle-shell0 mw-customtoggle-shell1" style="border:mediumturquoise; border-radius: 0.625em; background:lightblue; padding:0 1%; padding-right:1%; display:inline-block">
+<p><strong style = "line-height:1em; font-size:1.75em">Properties</strong></p>
+</div>
+<div class = "mw-customtoggle-shell0 mw-customtoggle-shell2" style="border:mediumturquoise; border-radius: 0.625em; background:lightblue; padding:0 1%; padding-right:1%; display:inline-block">
+<p><strong style = "line-height:1em; font-size:1.75em">Penetration</strong></p>
+</div>
+<div class = "mw-customtoggle-shell0 mw-customtoggle-shell3" style="border:mediumturquoise; border-radius: 0.625em; background:lightblue; padding:0 1%; padding-right:1%; display:inline-block">
+<p><strong style = "line-height:1em; font-size:1.75em">Physical</strong></p>
+</div>
+<div class = "mw-customtoggle-shell0 mw-customtoggle-shell4" style="border:mediumturquoise; border-radius: 0.625em; background:lightblue; padding:0 1%; padding-right:1%; display:inline-block">
+<p><strong style = "line-height:1em; font-size:1.75em">High Explosive</strong></p>
+</div>
+<div class = "mw-customtoggle-shell0 mw-customtoggle-shell5" style="border:mediumturquoise; border-radius: 0.625em; background:lightblue; padding:0 1%; padding-right:1%; display:inline-block">
+<p><strong style = "line-height:1em; font-size:1.75em">Fragmentation</strong></p>
+</div>
+</div>
+<div class = "mw-collapsible mw-collapsed" id = "mw-customcollapsible-shell1" style="margin:0.5em auto; text-align: center">
+<div class = "mw-customtoggle-shell1 mw-customtoggle-shell0" style="border:mediumturquoise; border-radius: 0.625em; background:lightblue; padding:0 1%; padding-right:1%; display:inline-block">
+<p><strong style = "line-height:1em; font-size:1.75em">Damage</strong></p>
+</div>
+<div style="border:mediumturquoise; border-radius: 0.625em; background:lightgreen; padding:0 1%; padding-right:1%; display:inline-block">
+<p><strong style = "line-height:1em; font-size:1.75em">Properties</strong></p>
+</div>
+<div class = "mw-customtoggle-shell1 mw-customtoggle-shell2" style="border:mediumturquoise; border-radius: 0.625em; background:lightblue; padding:0 1%; padding-right:1%; display:inline-block">
+<p><strong style = "line-height:1em; font-size:1.75em">Penetration</strong></p>
+</div>
+<div class = "mw-customtoggle-shell1 mw-customtoggle-shell3" style="border:mediumturquoise; border-radius: 0.625em; background:lightblue; padding:0 1%; padding-right:1%; display:inline-block">
+<p><strong style = "line-height:1em; font-size:1.75em">Physical</strong></p>
+</div>
+<div class = "mw-customtoggle-shell1 mw-customtoggle-shell4" style="border:mediumturquoise; border-radius: 0.625em; background:lightblue; padding:0 1%; padding-right:1%; display:inline-block">
+<p><strong style = "line-height:1em; font-size:1.75em">High Explosive</strong></p>
+</div>
+<div class = "mw-customtoggle-shell1 mw-customtoggle-shell5" style="border:mediumturquoise; border-radius: 0.625em; background:lightblue; padding:0 1%; padding-right:1%; display:inline-block">
+<p><strong style = "line-height:1em; font-size:1.75em">Fragmentation</strong></p>
+</div>
+</div>
+<div class = "mw-collapsible mw-collapsed" id = "mw-customcollapsible-shell2" style="margin:0.5em auto; text-align: center">
+<div class = "mw-customtoggle-shell2 mw-customtoggle-shell0" style="border:mediumturquoise; border-radius: 0.625em; background:lightblue; padding:0 1%; padding-right:1%; display:inline-block">
+<p><strong style = "line-height:1em; font-size:1.75em">Damage</strong></p>
+</div>
+<div class = "mw-customtoggle-shell2 mw-customtoggle-shell1" style="border:mediumturquoise; border-radius: 0.625em; background:lightblue; padding:0 1%; padding-right:1%; display:inline-block">
+<p><strong style = "line-height:1em; font-size:1.75em">Properties</strong></p>
+</div>
+<div style="border:mediumturquoise; border-radius: 0.625em; background:lightgreen; padding:0 1%; padding-right:1%; display:inline-block">
+<p><strong style = "line-height:1em; font-size:1.75em">Penetration</strong></p>
+</div>
+<div class = "mw-customtoggle-shell2 mw-customtoggle-shell3" style="border:mediumturquoise; border-radius: 0.625em; background:lightblue; padding:0 1%; padding-right:1%; display:inline-block">
+<p><strong style = "line-height:1em; font-size:1.75em">Physical</strong></p>
+</div>
+<div class = "mw-customtoggle-shell2 mw-customtoggle-shell4" style="border:mediumturquoise; border-radius: 0.625em; background:lightblue; padding:0 1%; padding-right:1%; display:inline-block">
+<p><strong style = "line-height:1em; font-size:1.75em">High Explosive</strong></p>
+</div>
+<div class = "mw-customtoggle-shell2 mw-customtoggle-shell5" style="border:mediumturquoise; border-radius: 0.625em; background:lightblue; padding:0 1%; padding-right:1%; display:inline-block">
+<p><strong style = "line-height:1em; font-size:1.75em">Fragmentation</strong></p>
+</div>
+</div>
+<div class = "mw-collapsible mw-collapsed" id = "mw-customcollapsible-shell3" style="margin:0.5em auto; text-align: center">
+<div class = "mw-customtoggle-shell3 mw-customtoggle-shell0" style="border:mediumturquoise; border-radius: 0.625em; background:lightblue; padding:0 1%; padding-right:1%; display:inline-block">
+<p><strong style = "line-height:1em; font-size:1.75em">Damage</strong></p>
+</div>
+<div class = "mw-customtoggle-shell3 mw-customtoggle-shell1" style="border:mediumturquoise; border-radius: 0.625em; background:lightblue; padding:0 1%; padding-right:1%; display:inline-block">
+<p><strong style = "line-height:1em; font-size:1.75em">Properties</strong></p>
+</div>
+<div class = "mw-customtoggle-shell3 mw-customtoggle-shell2" style="border:mediumturquoise; border-radius: 0.625em; background:lightblue; padding:0 1%; padding-right:1%; display:inline-block">
+<p><strong style = "line-height:1em; font-size:1.75em">Penetration</strong></p>
+</div>
+<div style="border:mediumturquoise; border-radius: 0.625em; background:lightgreen; padding:0 1%; padding-right:1%; display:inline-block">
+<p><strong style = "line-height:1em; font-size:1.75em">Physical</strong></p>
+</div>
+<div class = "mw-customtoggle-shell3 mw-customtoggle-shell4" style="border:mediumturquoise; border-radius: 0.625em; background:lightblue; padding:0 1%; padding-right:1%; display:inline-block">
+<p><strong style = "line-height:1em; font-size:1.75em">High Explosive</strong></p>
+</div>
+<div class = "mw-customtoggle-shell3 mw-customtoggle-shell5" style="border:mediumturquoise; border-radius: 0.625em; background:lightblue; padding:0 1%; padding-right:1%; display:inline-block">
+<p><strong style = "line-height:1em; font-size:1.75em">Fragmentation</strong></p>
+</div>
+</div>
+<div class = "mw-collapsible mw-collapsed" id = "mw-customcollapsible-shell4" style="margin:0.5em auto; text-align: center">
+<div class = "mw-customtoggle-shell4 mw-customtoggle-shell0" style="border:mediumturquoise; border-radius: 0.625em; background:lightblue; padding:0 1%; padding-right:1%; display:inline-block">
+<p><strong style = "line-height:1em; font-size:1.75em">Damage</strong></p>
+</div>
+<div class = "mw-customtoggle-shell4 mw-customtoggle-shell1" style="border:mediumturquoise; border-radius: 0.625em; background:lightblue; padding:0 1%; padding-right:1%; display:inline-block">
+<p><strong style = "line-height:1em; font-size:1.75em">Properties</strong></p>
+</div>
+<div class = "mw-customtoggle-shell4 mw-customtoggle-shell2" style="border:mediumturquoise; border-radius: 0.625em; background:lightblue; padding:0 1%; padding-right:1%; display:inline-block">
+<p><strong style = "line-height:1em; font-size:1.75em">Penetration</strong></p>
+</div>
+<div class = "mw-customtoggle-shell4 mw-customtoggle-shell3" style="border:mediumturquoise; border-radius: 0.625em; background:lightblue; padding:0 1%; padding-right:1%; display:inline-block">
+<p><strong style = "line-height:1em; font-size:1.75em">Physical</strong></p>
+</div>
+<div style="border:mediumturquoise; border-radius: 0.625em; background:lightgreen; padding:0 1%; padding-right:1%; display:inline-block">
+<p><strong style = "line-height:1em; font-size:1.75em">High Explosive</strong></p>
+</div>
+<div class = "mw-customtoggle-shell4 mw-customtoggle-shell5" style="border:mediumturquoise; border-radius: 0.625em; background:lightblue; padding:0 1%; padding-right:1%; display:inline-block">
+<p><strong style = "line-height:1em; font-size:1.75em">Fragmentation</strong></p>
+</div>
+</div>
+<div class = "mw-collapsible mw-collapsed" id = "mw-customcollapsible-shell5" style="margin:0.5em auto; text-align: center">
+<div class = "mw-customtoggle-shell5 mw-customtoggle-shell0" style="border:mediumturquoise; border-radius: 0.625em; background:lightblue; padding:0 1%; padding-right:1%; display:inline-block">
+<p><strong style = "line-height:1em; font-size:1.75em">Damage</strong></p>
+</div>
+<div class = "mw-customtoggle-shell5 mw-customtoggle-shell1" style="border:mediumturquoise; border-radius: 0.625em; background:lightblue; padding:0 1%; padding-right:1%; display:inline-block">
+<p><strong style = "line-height:1em; font-size:1.75em">Properties</strong></p>
+</div>
+<div class = "mw-customtoggle-shell5 mw-customtoggle-shell2" style="border:mediumturquoise; border-radius: 0.625em; background:lightblue; padding:0 1%; padding-right:1%; display:inline-block">
+<p><strong style = "line-height:1em; font-size:1.75em">Penetration</strong></p>
+</div>
+<div class = "mw-customtoggle-shell5 mw-customtoggle-shell3" style="border:mediumturquoise; border-radius: 0.625em; background:lightblue; padding:0 1%; padding-right:1%; display:inline-block">
+<p><strong style = "line-height:1em; font-size:1.75em">Physical</strong></p>
+</div>
+<div class = "mw-customtoggle-shell5 mw-customtoggle-shell4" style="border:mediumturquoise; border-radius: 0.625em; background:lightblue; padding:0 1%; padding-right:1%; display:inline-block">
+<p><strong style = "line-height:1em; font-size:1.75em">High Explosive</strong></p>
+</div>
+<div style="border:mediumturquoise; border-radius: 0.625em; background:lightgreen; padding:0 1%; padding-right:1%; display:inline-block">
+<p><strong style = "line-height:1em; font-size:1.75em">Fragmentation</strong></p>
+</div>
+</div>
+
+</div>
+</div>
+<div class = "mw-customtoggle-belts" style="font-size:1.2em; text-align:center; width:auto; overflow:auto; border:solid purple; border-radius: 0.625em; background:lavender">
+<strong><i>Belts</i></strong>
+</div>
+<div class = "mw-collapsible" id = "mw-customcollapsible-belts" style = "width:99%; overflow:auto;">
+<div class = "mw-collapsible-content" style = "border:solid lightgray; background:white; margin-left:1%; padding:0 1%; overflow:auto">
+<div class = "mw-customtoggle-belt0" style="text-align:center; width:auto; margin:1% 0 0 0; overflow:auto; border:solid purple; border-radius: 0.625em; background:lavender">
+<strong><i>Default</i></strong>
+</div>
+<div class = "mw-collapsible mw-collapsed" id = "mw-customcollapsible-belt0" style = "width:99%; overflow:auto;">
+<div class = "mw-collapsible-content" style = "border:solid lightgray; background:white; margin:0 0 0 1%; padding:0 1%; overflow:auto">
+{| style = "width:100em; text-align:center; margin:0 auto 1%; font-size:1em"
+! rowspan="2" style = "background:PaleVioletRed"| Shell Name
+! colspan="4" style = "background:PaleVioletRed"| Projectile Properties
+! colspan="6" style = "background:PaleVioletRed"| Shell Penetration (mm)
+! colspan="2" style = "background:PaleVioletRed"| Physical Projectile<br/>Damage
+! colspan="3" style = "background:PaleVioletRed"| High Explosive<br/>Damage
+! colspan="3" style = "background:PaleVioletRed"| Fragmentation<br/>Damage
+|-
+! style = "background:PaleVioletRed"| Caliber
+! style = "background:PaleVioletRed"| Tracer
+! style = "background:PaleVioletRed"| Velocity
+! style = "background:PaleVioletRed"| Mass
+! style = "background:PaleVioletRed"| R²
+! style = "background:PaleVioletRed"| 100m
+! style = "background:PaleVioletRed"| 250m
+! style = "background:PaleVioletRed"| 500m
+! style = "background:PaleVioletRed"| 750m
+! style = "background:PaleVioletRed"| 1000m
+! style = "background:PaleVioletRed"| Damage<br/>Rating
+! style = "background:PaleVioletRed"| Fire<br/>Rating
+! style = "background:PaleVioletRed"| Damage<br/>Rating
+! style = "background:PaleVioletRed"| Radius
+! style = "background:PaleVioletRed"| Pen.
+! style = "background:PaleVioletRed"| Damage<br/>Rating
+! style = "background:PaleVioletRed"| Radius
+! style = "background:PaleVioletRed"| Pen.
+|-
+! style = "background:PaleVioletRed" | Frag I T
+| style = "background:Lavender" | 20mm
+| style = "background:Lavender" | Yes
+| style = "background:Lavender" | 800m/s
+| style = "background:Lavender" | 96g
+| style = "background:Lavender" | 0.96
+| style = "background:Lavender" | 2.00
+| style = "background:Lavender" | 1.81
+| style = "background:Lavender" | 1.50
+| style = "background:Lavender" | 1.18
+| style = "background:Lavender" | 0.86
+| style = "background:Lavender" | 6.14
+| style = "background:Lavender" | x1.50
+| style = "background:Lavender" | 18.66
+| style = "background:Lavender" | 0.04 m
+| style = "background:Lavender" | 5.00 mm
+| style = "background:Lavender" | 63.00
+| style = "background:Lavender" | 1.20 m
+| style = "background:Lavender" | 6.00 mm
+|-
+! style = "background:PaleVioletRed" | Ap I
+| style = "background:Plum" | 20mm
+| style = "background:Plum" | No
+| style = "background:Plum" | 800m/s
+| style = "background:Plum" | 96g
+| style = "background:Plum" | 0.98
+| style = "background:Plum" | 24.70
+| style = "background:Plum" | 23.18
+| style = "background:Plum" | 20.65
+| style = "background:Plum" | 18.13
+| style = "background:Plum" | 15.60
+| style = "background:Plum" | 6.14
+| style = "background:Plum" | x10.00
+| style = "background:Plum" | 0.00
+| style = "background:Plum" | 0.00 m
+| style = "background:Plum" | 0.00 mm
+| style = "background:Plum" | 0.00
+| style = "background:Plum" | 0.00 m
+| style = "background:Plum" | 0.00 mm
+|}
+
+</div>
+</div>
+<div class = "mw-customtoggle-belt1" style="text-align:center; width:auto; margin:1% 0 0 0; overflow:auto; border:solid purple; border-radius: 0.625em; background:lavender">
+<strong><i>Universal</i></strong>
+</div>
+<div class = "mw-collapsible mw-collapsed" id = "mw-customcollapsible-belt1" style = "width:99%; overflow:auto;">
+<div class = "mw-collapsible-content" style = "border:solid lightgray; background:white; margin:0 0 0 1%; padding:0 1%; overflow:auto">
+{| style = "width:100em; text-align:center; margin:0 auto 1%; font-size:1em"
+! rowspan="2" style = "background:PaleVioletRed"| Shell Name
+! colspan="4" style = "background:PaleVioletRed"| Projectile Properties
+! colspan="6" style = "background:PaleVioletRed"| Shell Penetration (mm)
+! colspan="2" style = "background:PaleVioletRed"| Physical Projectile<br/>Damage
+! colspan="3" style = "background:PaleVioletRed"| High Explosive<br/>Damage
+! colspan="3" style = "background:PaleVioletRed"| Fragmentation<br/>Damage
+|-
+! style = "background:PaleVioletRed"| Caliber
+! style = "background:PaleVioletRed"| Tracer
+! style = "background:PaleVioletRed"| Velocity
+! style = "background:PaleVioletRed"| Mass
+! style = "background:PaleVioletRed"| R²
+! style = "background:PaleVioletRed"| 100m
+! style = "background:PaleVioletRed"| 250m
+! style = "background:PaleVioletRed"| 500m
+! style = "background:PaleVioletRed"| 750m
+! style = "background:PaleVioletRed"| 1000m
+! style = "background:PaleVioletRed"| Damage<br/>Rating
+! style = "background:PaleVioletRed"| Fire<br/>Rating
+! style = "background:PaleVioletRed"| Damage<br/>Rating
+! style = "background:PaleVioletRed"| Radius
+! style = "background:PaleVioletRed"| Pen.
+! style = "background:PaleVioletRed"| Damage<br/>Rating
+! style = "background:PaleVioletRed"| Radius
+! style = "background:PaleVioletRed"| Pen.
+|-
+! style = "background:PaleVioletRed" | Frag I T
+| style = "background:Lavender" | 20mm
+| style = "background:Lavender" | Yes
+| style = "background:Lavender" | 800m/s
+| style = "background:Lavender" | 96g
+| style = "background:Lavender" | 0.96
+| style = "background:Lavender" | 2.00
+| style = "background:Lavender" | 1.81
+| style = "background:Lavender" | 1.50
+| style = "background:Lavender" | 1.18
+| style = "background:Lavender" | 0.86
+| style = "background:Lavender" | 6.14
+| style = "background:Lavender" | x1.50
+| style = "background:Lavender" | 18.66
+| style = "background:Lavender" | 0.04 m
+| style = "background:Lavender" | 5.00 mm
+| style = "background:Lavender" | 63.00
+| style = "background:Lavender" | 1.20 m
+| style = "background:Lavender" | 6.00 mm
+|-
+! style = "background:PaleVioletRed" | He Frag
+| style = "background:Plum" | 20mm
+| style = "background:Plum" | No
+| style = "background:Plum" | 800m/s
+| style = "background:Plum" | 91g
+| style = "background:Plum" | 0.96
+| style = "background:Plum" | 2.00
+| style = "background:Plum" | 1.81
+| style = "background:Plum" | 1.50
+| style = "background:Plum" | 1.18
+| style = "background:Plum" | 0.86
+| style = "background:Plum" | 5.82
+| style = "background:Plum" | x0.00
+| style = "background:Plum" | 27.00
+| style = "background:Plum" | 0.04 m
+| style = "background:Plum" | 5.00 mm
+| style = "background:Plum" | 31.20
+| style = "background:Plum" | 0.80 m
+| style = "background:Plum" | 6.00 mm
+|-
+! style = "background:PaleVioletRed" | Ap I
+| style = "background:Lavender" | 20mm
+| style = "background:Lavender" | No
+| style = "background:Lavender" | 800m/s
+| style = "background:Lavender" | 96g
+| style = "background:Lavender" | 0.98
+| style = "background:Lavender" | 24.70
+| style = "background:Lavender" | 23.18
+| style = "background:Lavender" | 20.65
+| style = "background:Lavender" | 18.13
+| style = "background:Lavender" | 15.60
+| style = "background:Lavender" | 6.14
+| style = "background:Lavender" | x10.00
+| style = "background:Lavender" | 0.00
+| style = "background:Lavender" | 0.00 m
+| style = "background:Lavender" | 0.00 mm
+| style = "background:Lavender" | 0.00
+| style = "background:Lavender" | 0.00 m
+| style = "background:Lavender" | 0.00 mm
+|-
+! style = "background:PaleVioletRed" | Frag I T
+| style = "background:Plum" | 20mm
+| style = "background:Plum" | Yes
+| style = "background:Plum" | 800m/s
+| style = "background:Plum" | 96g
+| style = "background:Plum" | 0.96
+| style = "background:Plum" | 2.00
+| style = "background:Plum" | 1.81
+| style = "background:Plum" | 1.50
+| style = "background:Plum" | 1.18
+| style = "background:Plum" | 0.86
+| style = "background:Plum" | 6.14
+| style = "background:Plum" | x1.50
+| style = "background:Plum" | 18.66
+| style = "background:Plum" | 0.04 m
+| style = "background:Plum" | 5.00 mm
+| style = "background:Plum" | 63.00
+| style = "background:Plum" | 1.20 m
+| style = "background:Plum" | 6.00 mm
+|}
+
+</div>
+</div>
+<div class = "mw-customtoggle-belt2" style="text-align:center; width:auto; margin:1% 0 0 0; overflow:auto; border:solid purple; border-radius: 0.625em; background:lavender">
+<strong><i>Ground Targets</i></strong>
+</div>
+<div class = "mw-collapsible mw-collapsed" id = "mw-customcollapsible-belt2" style = "width:99%; overflow:auto;">
+<div class = "mw-collapsible-content" style = "border:solid lightgray; background:white; margin:0 0 0 1%; padding:0 1%; overflow:auto">
+{| style = "width:100em; text-align:center; margin:0 auto 1%; font-size:1em"
+! rowspan="2" style = "background:PaleVioletRed"| Shell Name
+! colspan="4" style = "background:PaleVioletRed"| Projectile Properties
+! colspan="6" style = "background:PaleVioletRed"| Shell Penetration (mm)
+! colspan="2" style = "background:PaleVioletRed"| Physical Projectile<br/>Damage
+! colspan="3" style = "background:PaleVioletRed"| High Explosive<br/>Damage
+! colspan="3" style = "background:PaleVioletRed"| Fragmentation<br/>Damage
+|-
+! style = "background:PaleVioletRed"| Caliber
+! style = "background:PaleVioletRed"| Tracer
+! style = "background:PaleVioletRed"| Velocity
+! style = "background:PaleVioletRed"| Mass
+! style = "background:PaleVioletRed"| R²
+! style = "background:PaleVioletRed"| 100m
+! style = "background:PaleVioletRed"| 250m
+! style = "background:PaleVioletRed"| 500m
+! style = "background:PaleVioletRed"| 750m
+! style = "background:PaleVioletRed"| 1000m
+! style = "background:PaleVioletRed"| Damage<br/>Rating
+! style = "background:PaleVioletRed"| Fire<br/>Rating
+! style = "background:PaleVioletRed"| Damage<br/>Rating
+! style = "background:PaleVioletRed"| Radius
+! style = "background:PaleVioletRed"| Pen.
+! style = "background:PaleVioletRed"| Damage<br/>Rating
+! style = "background:PaleVioletRed"| Radius
+! style = "background:PaleVioletRed"| Pen.
+|-
+! style = "background:PaleVioletRed" | He Frag
+| style = "background:Lavender" | 20mm
+| style = "background:Lavender" | No
+| style = "background:Lavender" | 800m/s
+| style = "background:Lavender" | 91g
+| style = "background:Lavender" | 0.96
+| style = "background:Lavender" | 2.00
+| style = "background:Lavender" | 1.81
+| style = "background:Lavender" | 1.50
+| style = "background:Lavender" | 1.18
+| style = "background:Lavender" | 0.86
+| style = "background:Lavender" | 5.82
+| style = "background:Lavender" | x0.00
+| style = "background:Lavender" | 27.00
+| style = "background:Lavender" | 0.04 m
+| style = "background:Lavender" | 5.00 mm
+| style = "background:Lavender" | 31.20
+| style = "background:Lavender" | 0.80 m
+| style = "background:Lavender" | 6.00 mm
+|-
+! style = "background:PaleVioletRed" | Frag I T
+| style = "background:Plum" | 20mm
+| style = "background:Plum" | Yes
+| style = "background:Plum" | 800m/s
+| style = "background:Plum" | 96g
+| style = "background:Plum" | 0.96
+| style = "background:Plum" | 2.00
+| style = "background:Plum" | 1.81
+| style = "background:Plum" | 1.50
+| style = "background:Plum" | 1.18
+| style = "background:Plum" | 0.86
+| style = "background:Plum" | 6.14
+| style = "background:Plum" | x1.50
+| style = "background:Plum" | 18.66
+| style = "background:Plum" | 0.04 m
+| style = "background:Plum" | 5.00 mm
+| style = "background:Plum" | 63.00
+| style = "background:Plum" | 1.20 m
+| style = "background:Plum" | 6.00 mm
+|-
+! style = "background:PaleVioletRed" | Ap I
+| style = "background:Lavender" | 20mm
+| style = "background:Lavender" | No
+| style = "background:Lavender" | 800m/s
+| style = "background:Lavender" | 96g
+| style = "background:Lavender" | 0.98
+| style = "background:Lavender" | 24.70
+| style = "background:Lavender" | 23.18
+| style = "background:Lavender" | 20.65
+| style = "background:Lavender" | 18.13
+| style = "background:Lavender" | 15.60
+| style = "background:Lavender" | 6.14
+| style = "background:Lavender" | x10.00
+| style = "background:Lavender" | 0.00
+| style = "background:Lavender" | 0.00 m
+| style = "background:Lavender" | 0.00 mm
+| style = "background:Lavender" | 0.00
+| style = "background:Lavender" | 0.00 m
+| style = "background:Lavender" | 0.00 mm
+|}
+
+</div>
+</div>
+<div class = "mw-customtoggle-belt3" style="text-align:center; width:auto; margin:1% 0 0 0; overflow:auto; border:solid purple; border-radius: 0.625em; background:lavender">
+<strong><i>Tracers</i></strong>
+</div>
+<div class = "mw-collapsible mw-collapsed" id = "mw-customcollapsible-belt3" style = "width:99%; overflow:auto;">
+<div class = "mw-collapsible-content" style = "border:solid lightgray; background:white; margin:0 0 0 1%; padding:0 1%; overflow:auto">
+{| style = "width:100em; text-align:center; margin:0 auto 1%; font-size:1em"
+! rowspan="2" style = "background:PaleVioletRed"| Shell Name
+! colspan="4" style = "background:PaleVioletRed"| Projectile Properties
+! colspan="6" style = "background:PaleVioletRed"| Shell Penetration (mm)
+! colspan="2" style = "background:PaleVioletRed"| Physical Projectile<br/>Damage
+! colspan="3" style = "background:PaleVioletRed"| High Explosive<br/>Damage
+! colspan="3" style = "background:PaleVioletRed"| Fragmentation<br/>Damage
+|-
+! style = "background:PaleVioletRed"| Caliber
+! style = "background:PaleVioletRed"| Tracer
+! style = "background:PaleVioletRed"| Velocity
+! style = "background:PaleVioletRed"| Mass
+! style = "background:PaleVioletRed"| R²
+! style = "background:PaleVioletRed"| 100m
+! style = "background:PaleVioletRed"| 250m
+! style = "background:PaleVioletRed"| 500m
+! style = "background:PaleVioletRed"| 750m
+! style = "background:PaleVioletRed"| 1000m
+! style = "background:PaleVioletRed"| Damage<br/>Rating
+! style = "background:PaleVioletRed"| Fire<br/>Rating
+! style = "background:PaleVioletRed"| Damage<br/>Rating
+! style = "background:PaleVioletRed"| Radius
+! style = "background:PaleVioletRed"| Pen.
+! style = "background:PaleVioletRed"| Damage<br/>Rating
+! style = "background:PaleVioletRed"| Radius
+! style = "background:PaleVioletRed"| Pen.
+|-
+! style = "background:PaleVioletRed" | Frag I T
+| style = "background:Lavender" | 20mm
+| style = "background:Lavender" | Yes
+| style = "background:Lavender" | 800m/s
+| style = "background:Lavender" | 96g
+| style = "background:Lavender" | 0.96
+| style = "background:Lavender" | 2.00
+| style = "background:Lavender" | 1.81
+| style = "background:Lavender" | 1.50
+| style = "background:Lavender" | 1.18
+| style = "background:Lavender" | 0.86
+| style = "background:Lavender" | 6.14
+| style = "background:Lavender" | x1.50
+| style = "background:Lavender" | 18.66
+| style = "background:Lavender" | 0.04 m
+| style = "background:Lavender" | 5.00 mm
+| style = "background:Lavender" | 63.00
+| style = "background:Lavender" | 1.20 m
+| style = "background:Lavender" | 6.00 mm
+|-
+! style = "background:PaleVioletRed" | Frag I T
+| style = "background:Plum" | 20mm
+| style = "background:Plum" | Yes
+| style = "background:Plum" | 800m/s
+| style = "background:Plum" | 96g
+| style = "background:Plum" | 0.96
+| style = "background:Plum" | 2.00
+| style = "background:Plum" | 1.81
+| style = "background:Plum" | 1.50
+| style = "background:Plum" | 1.18
+| style = "background:Plum" | 0.86
+| style = "background:Plum" | 6.14
+| style = "background:Plum" | x1.50
+| style = "background:Plum" | 18.66
+| style = "background:Plum" | 0.04 m
+| style = "background:Plum" | 5.00 mm
+| style = "background:Plum" | 63.00
+| style = "background:Plum" | 1.20 m
+| style = "background:Plum" | 6.00 mm
+|-
+! style = "background:PaleVioletRed" | Frag I T
+| style = "background:Lavender" | 20mm
+| style = "background:Lavender" | Yes
+| style = "background:Lavender" | 800m/s
+| style = "background:Lavender" | 96g
+| style = "background:Lavender" | 0.96
+| style = "background:Lavender" | 2.00
+| style = "background:Lavender" | 1.81
+| style = "background:Lavender" | 1.50
+| style = "background:Lavender" | 1.18
+| style = "background:Lavender" | 0.86
+| style = "background:Lavender" | 6.14
+| style = "background:Lavender" | x1.50
+| style = "background:Lavender" | 18.66
+| style = "background:Lavender" | 0.04 m
+| style = "background:Lavender" | 5.00 mm
+| style = "background:Lavender" | 63.00
+| style = "background:Lavender" | 1.20 m
+| style = "background:Lavender" | 6.00 mm
+|}
+
+</div>
+</div>
+<div class = "mw-customtoggle-belt4" style="text-align:center; width:auto; margin:1% 0 0 0; overflow:auto; border:solid purple; border-radius: 0.625em; background:lavender">
+<strong><i>Armor Targets</i></strong>
+</div>
+<div class = "mw-collapsible mw-collapsed" id = "mw-customcollapsible-belt4" style = "width:99%; overflow:auto;">
+<div class = "mw-collapsible-content" style = "border:solid lightgray; background:white; margin:0 0 0 1%; padding:0 1%; overflow:auto">
+{| style = "width:100em; text-align:center; margin:0 auto 1%; font-size:1em"
+! rowspan="2" style = "background:PaleVioletRed"| Shell Name
+! colspan="4" style = "background:PaleVioletRed"| Projectile Properties
+! colspan="6" style = "background:PaleVioletRed"| Shell Penetration (mm)
+! colspan="2" style = "background:PaleVioletRed"| Physical Projectile<br/>Damage
+! colspan="3" style = "background:PaleVioletRed"| High Explosive<br/>Damage
+! colspan="3" style = "background:PaleVioletRed"| Fragmentation<br/>Damage
+|-
+! style = "background:PaleVioletRed"| Caliber
+! style = "background:PaleVioletRed"| Tracer
+! style = "background:PaleVioletRed"| Velocity
+! style = "background:PaleVioletRed"| Mass
+! style = "background:PaleVioletRed"| R²
+! style = "background:PaleVioletRed"| 100m
+! style = "background:PaleVioletRed"| 250m
+! style = "background:PaleVioletRed"| 500m
+! style = "background:PaleVioletRed"| 750m
+! style = "background:PaleVioletRed"| 1000m
+! style = "background:PaleVioletRed"| Damage<br/>Rating
+! style = "background:PaleVioletRed"| Fire<br/>Rating
+! style = "background:PaleVioletRed"| Damage<br/>Rating
+! style = "background:PaleVioletRed"| Radius
+! style = "background:PaleVioletRed"| Pen.
+! style = "background:PaleVioletRed"| Damage<br/>Rating
+! style = "background:PaleVioletRed"| Radius
+! style = "background:PaleVioletRed"| Pen.
+|-
+! style = "background:PaleVioletRed" | Ap I
+| style = "background:Lavender" | 20mm
+| style = "background:Lavender" | No
+| style = "background:Lavender" | 800m/s
+| style = "background:Lavender" | 96g
+| style = "background:Lavender" | 0.98
+| style = "background:Lavender" | 24.70
+| style = "background:Lavender" | 23.18
+| style = "background:Lavender" | 20.65
+| style = "background:Lavender" | 18.13
+| style = "background:Lavender" | 15.60
+| style = "background:Lavender" | 6.14
+| style = "background:Lavender" | x10.00
+| style = "background:Lavender" | 0.00
+| style = "background:Lavender" | 0.00 m
+| style = "background:Lavender" | 0.00 mm
+| style = "background:Lavender" | 0.00
+| style = "background:Lavender" | 0.00 m
+| style = "background:Lavender" | 0.00 mm
+|-
+! style = "background:PaleVioletRed" | Frag I T
+| style = "background:Plum" | 20mm
+| style = "background:Plum" | Yes
+| style = "background:Plum" | 800m/s
+| style = "background:Plum" | 96g
+| style = "background:Plum" | 0.96
+| style = "background:Plum" | 2.00
+| style = "background:Plum" | 1.81
+| style = "background:Plum" | 1.50
+| style = "background:Plum" | 1.18
+| style = "background:Plum" | 0.86
+| style = "background:Plum" | 6.14
+| style = "background:Plum" | x1.50
+| style = "background:Plum" | 18.66
+| style = "background:Plum" | 0.04 m
+| style = "background:Plum" | 5.00 mm
+| style = "background:Plum" | 63.00
+| style = "background:Plum" | 1.20 m
+| style = "background:Plum" | 6.00 mm
+|-
+! style = "background:PaleVioletRed" | Ap I
+| style = "background:Lavender" | 20mm
+| style = "background:Lavender" | No
+| style = "background:Lavender" | 800m/s
+| style = "background:Lavender" | 96g
+| style = "background:Lavender" | 0.98
+| style = "background:Lavender" | 24.70
+| style = "background:Lavender" | 23.18
+| style = "background:Lavender" | 20.65
+| style = "background:Lavender" | 18.13
+| style = "background:Lavender" | 15.60
+| style = "background:Lavender" | 6.14
+| style = "background:Lavender" | x10.00
+| style = "background:Lavender" | 0.00
+| style = "background:Lavender" | 0.00 m
+| style = "background:Lavender" | 0.00 mm
+| style = "background:Lavender" | 0.00
+| style = "background:Lavender" | 0.00 m
+| style = "background:Lavender" | 0.00 mm
+|-
+! style = "background:PaleVioletRed" | Ap I
+| style = "background:Plum" | 20mm
+| style = "background:Plum" | No
+| style = "background:Plum" | 800m/s
+| style = "background:Plum" | 96g
+| style = "background:Plum" | 0.98
+| style = "background:Plum" | 24.70
+| style = "background:Plum" | 23.18
+| style = "background:Plum" | 20.65
+| style = "background:Plum" | 18.13
+| style = "background:Plum" | 15.60
+| style = "background:Plum" | 6.14
+| style = "background:Plum" | x10.00
+| style = "background:Plum" | 0.00
+| style = "background:Plum" | 0.00 m
+| style = "background:Plum" | 0.00 mm
+| style = "background:Plum" | 0.00
+| style = "background:Plum" | 0.00 m
+| style = "background:Plum" | 0.00 mm
+|}
+
+</div>
+</div>
+<div class = "mw-customtoggle-belt5" style="text-align:center; width:auto; margin:1% 0 0 0; overflow:auto; border:solid purple; border-radius: 0.625em; background:lavender">
+<strong><i>Stealth</i></strong>
+</div>
+<div class = "mw-collapsible mw-collapsed" id = "mw-customcollapsible-belt5" style = "width:99%; overflow:auto;">
+<div class = "mw-collapsible-content" style = "border:solid lightgray; background:white; margin:0 0 0 1%; padding:0 1%; overflow:auto">
+{| style = "width:100em; text-align:center; margin:0 auto 1%; font-size:1em"
+! rowspan="2" style = "background:PaleVioletRed"| Shell Name
+! colspan="4" style = "background:PaleVioletRed"| Projectile Properties
+! colspan="6" style = "background:PaleVioletRed"| Shell Penetration (mm)
+! colspan="2" style = "background:PaleVioletRed"| Physical Projectile<br/>Damage
+! colspan="3" style = "background:PaleVioletRed"| High Explosive<br/>Damage
+! colspan="3" style = "background:PaleVioletRed"| Fragmentation<br/>Damage
+|-
+! style = "background:PaleVioletRed"| Caliber
+! style = "background:PaleVioletRed"| Tracer
+! style = "background:PaleVioletRed"| Velocity
+! style = "background:PaleVioletRed"| Mass
+! style = "background:PaleVioletRed"| R²
+! style = "background:PaleVioletRed"| 100m
+! style = "background:PaleVioletRed"| 250m
+! style = "background:PaleVioletRed"| 500m
+! style = "background:PaleVioletRed"| 750m
+! style = "background:PaleVioletRed"| 1000m
+! style = "background:PaleVioletRed"| Damage<br/>Rating
+! style = "background:PaleVioletRed"| Fire<br/>Rating
+! style = "background:PaleVioletRed"| Damage<br/>Rating
+! style = "background:PaleVioletRed"| Radius
+! style = "background:PaleVioletRed"| Pen.
+! style = "background:PaleVioletRed"| Damage<br/>Rating
+! style = "background:PaleVioletRed"| Radius
+! style = "background:PaleVioletRed"| Pen.
+|-
+! style = "background:PaleVioletRed" | Ap I
+| style = "background:Lavender" | 20mm
+| style = "background:Lavender" | No
+| style = "background:Lavender" | 800m/s
+| style = "background:Lavender" | 96g
+| style = "background:Lavender" | 0.98
+| style = "background:Lavender" | 24.70
+| style = "background:Lavender" | 23.18
+| style = "background:Lavender" | 20.65
+| style = "background:Lavender" | 18.13
+| style = "background:Lavender" | 15.60
+| style = "background:Lavender" | 6.14
+| style = "background:Lavender" | x10.00
+| style = "background:Lavender" | 0.00
+| style = "background:Lavender" | 0.00 m
+| style = "background:Lavender" | 0.00 mm
+| style = "background:Lavender" | 0.00
+| style = "background:Lavender" | 0.00 m
+| style = "background:Lavender" | 0.00 mm
+|-
+! style = "background:PaleVioletRed" | He Frag
+| style = "background:Plum" | 20mm
+| style = "background:Plum" | No
+| style = "background:Plum" | 800m/s
+| style = "background:Plum" | 91g
+| style = "background:Plum" | 0.96
+| style = "background:Plum" | 2.00
+| style = "background:Plum" | 1.81
+| style = "background:Plum" | 1.50
+| style = "background:Plum" | 1.18
+| style = "background:Plum" | 0.86
+| style = "background:Plum" | 5.82
+| style = "background:Plum" | x0.00
+| style = "background:Plum" | 27.00
+| style = "background:Plum" | 0.04 m
+| style = "background:Plum" | 5.00 mm
+| style = "background:Plum" | 31.20
+| style = "background:Plum" | 0.80 m
+| style = "background:Plum" | 6.00 mm
+|-
+! style = "background:PaleVioletRed" | He Frag
+| style = "background:Lavender" | 20mm
+| style = "background:Lavender" | No
+| style = "background:Lavender" | 800m/s
+| style = "background:Lavender" | 91g
+| style = "background:Lavender" | 0.96
+| style = "background:Lavender" | 2.00
+| style = "background:Lavender" | 1.81
+| style = "background:Lavender" | 1.50
+| style = "background:Lavender" | 1.18
+| style = "background:Lavender" | 0.86
+| style = "background:Lavender" | 5.82
+| style = "background:Lavender" | x0.00
+| style = "background:Lavender" | 27.00
+| style = "background:Lavender" | 0.04 m
+| style = "background:Lavender" | 5.00 mm
+| style = "background:Lavender" | 31.20
+| style = "background:Lavender" | 0.80 m
+| style = "background:Lavender" | 6.00 mm
+|-
+! style = "background:PaleVioletRed" | Frag I
+| style = "background:Plum" | 20mm
+| style = "background:Plum" | No
+| style = "background:Plum" | 800m/s
+| style = "background:Plum" | 96g
+| style = "background:Plum" | 0.96
+| style = "background:Plum" | 2.00
+| style = "background:Plum" | 1.81
+| style = "background:Plum" | 1.50
+| style = "background:Plum" | 1.18
+| style = "background:Plum" | 0.86
+| style = "background:Plum" | 6.14
+| style = "background:Plum" | x1.50
+| style = "background:Plum" | 25.48
+| style = "background:Plum" | 0.04 m
+| style = "background:Plum" | 5.00 mm
+| style = "background:Plum" | 63.00
+| style = "background:Plum" | 1.20 m
+| style = "background:Plum" | 6.00 mm
+|}
+
+</div>
+</div>
+
+</div>
+</div>
+</div>
+</div>
