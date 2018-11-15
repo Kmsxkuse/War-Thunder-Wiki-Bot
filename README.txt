@@ -4,8 +4,6 @@ Steps:
 	I recommend using a batch file to run the unencrypter over all files.
 	The files should have extensions ".blkx"
 2. Run Initialization.ts
-3. Once you have VISUAL confirmation that Initialization.ts is finished, run hitpowerProc.ts
-4. Ditto above but for hitpowerProc.ts, run Main.ts
-
-Why am I making you run these files in sequence manually?
-Because I have no fucking clue how to code.
+3. Once you have VISUAL confirmation that Initialization.ts is finished, run Main.ts
+4. Completed files will be found in ./outputFiles
+5. Repeated reruns of the bot without changing weapons folder does not require running Initialization.ts again.
